@@ -16,8 +16,9 @@ jobs:
         run: |
           zip -r extension.zip . \
           -x ".git/*" \
-          -x ".github/*" \
-          -x ".gitignore"
+           -x ".github/*" \
+           -x ".gitignore" \
+           -x "extension.zip"
 
       - name: Upload ZIP artifact
         uses: actions/upload-artifact@v4
