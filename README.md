@@ -7,7 +7,7 @@
 Você pode baixar a versão mais recente da extensão diretamente do build automatizado. O arquivo `.zip` é gerado a cada nova atualização no código.
 
 ### Como baixar o arquivo:
-1. Clique nesse [link](https://github.com/carvalinh0/no-youtube-shorts/actions/workflows/zip.yml\) acima para ver o histórico de builds.
+1. Clique nesse [link](https://github.com/carvalinh0/no-youtube-shorts/actions/workflows/zip.yml) acima para ver o histórico de builds.
 2. Clique no item mais recente da lista (o que estiver no topo com um ✔️ verde).
 3. Na página seguinte, role para baixo até a seção **"Artifacts"** e clique em **`extension`** para baixar o arquivo `.zip`.
 
