@@ -26,4 +26,4 @@ Você pode baixar a versão mais recente da extensão diretamente do build autom
 
 ## Observações:
 Isso é apenas um projeto pessoal mas que pode ajudar outras pessoas a se livrarem das distrações que são os reels/shorts.
-Se você ainda não viu a extensão para o instagram, vale a pena conferir!
+Se você ainda não viu a [extensão para o instagram](https://github.com/carvalinh0/no-instagram-reels), vale a pena conferir!
