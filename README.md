@@ -1,4 +1,4 @@
-# No YouTube Reels
+# No YouTube Shorts
 
 ---
 
