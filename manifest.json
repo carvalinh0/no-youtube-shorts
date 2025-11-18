@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Shorts Remover",
+  "version": "1.0",
+  "description": "A Simple Youtube Shorts Remover.",
+  "icons": {
+    "16": "./assets/Youtube_shorts_16.png",
+    "48": "./assets/Youtube_shorts_48.png",
+    "128": "./assets/Youtube_shorts_128.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "action": {
+    "default_icon": "./assets/Youtube_shorts.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "*://youtube.com/*",
+        "*://www.youtube.com/*",
+        "*://m.youtube.com/*"
+      ]
+    }
+  ]
+}
