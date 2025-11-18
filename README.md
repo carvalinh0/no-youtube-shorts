@@ -13,12 +13,12 @@ Você pode baixar a versão mais recente da extensão diretamente do build autom
 
 ---
 ### Como Instalar (firefox)
-1. Após baixar o arquivo .zip, abra a página [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox) na barra de pesquisa
+1. Após baixar o arquivo .zip, abra a página `about:debugging#/runtime/this-firefox` na barra de pesquisa
 2. Extraia o conteúdo do zip para um local de sua escolha
 3. Clique em "carregar add-on temporário" e adicione o **conteúdo do zip**
 
 ### Como Instalar (chrome)
-1. Após baixar o arquivo .zip, abra a página [chrome://extensions/](chrome://extensions/) na barra de pesquisa
+1. Após baixar o arquivo .zip, abra a página `chrome://extensions/` na barra de pesquisa
 2. Extraia o conteúdo do zip para um local de sua escolha
 3. Habilite o "modo desenvolvedor", clique em carregar sem compactação e adicione o **conteúdo do zip**.
 
