@@ -1,0 +1,27 @@
+name: Create ZIP
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Create ZIP file
+        run: |
+          zip -r extension.zip . \
+          -x ".git/*" \
+          -x ".github/*" \
+          -x ".gitignore"
+        
+
+      - name: Upload ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-code
+          path: source-code.zip
